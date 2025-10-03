@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>天気予報アプリ</title>
+
+        <link rel="stylesheet" href="stylesheet2.css">
+    </head>
+
+
+    <body>
+        <h1>天気予報アプリ</h1>
+        <h2>中島佑真</h2>
+
+        <div>
+            <input type="text" id="city_input" placeholder="都市名を入力">
+            <button id="search_btn">検索</button>
+        </div>
+        
+        <ul id="weather-list" class="weather-list">
+        </ul>
+
+        <h3>検索履歴</h3>
+        <ul id="history-list" class="history-list"></ul>
+
+        <button id="delete-history">削除</button>
+        
+        <script src="weather.js"></script>
+    </body>
+
+</html>
